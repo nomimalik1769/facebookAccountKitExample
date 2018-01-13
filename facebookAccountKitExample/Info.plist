@@ -41,15 +41,15 @@
 	</array>
 
             <key>FacebookAppID</key>
-            <string>159928184636105</string>
+            <string>{AppId}</string>
             <key>AccountKitClientToken</key>
-            <string>e36fdda075fa4119b3fd694d0fe3cc48</string>
+            <string>{Access Token}</string>
             <key>CFBundleURLTypes</key>
             <array>
                 <dict>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>ak159928184636105</string>
+                        <string>ak{AppId}</string>
                     </array>
                 </dict>
             </array>
