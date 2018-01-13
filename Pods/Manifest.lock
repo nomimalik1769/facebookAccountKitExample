@@ -1,0 +1,12 @@
+PODS:
+  - AccountKit (4.29.0)
+
+DEPENDENCIES:
+  - AccountKit
+
+SPEC CHECKSUMS:
+  AccountKit: 27d239ed0254b6cda6597df9d712b5aab8db6e24
+
+PODFILE CHECKSUM: 5806544695f23cd438f1bdab1b92f280de48d7bd
+
+COCOAPODS: 1.3.1

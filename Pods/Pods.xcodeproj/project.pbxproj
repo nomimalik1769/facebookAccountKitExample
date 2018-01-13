@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C998660902E580BF00E195B340F9AE4 /* Pods-facebookAccountKitExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD145A5328D79AB7055029AFED15552 /* Pods-facebookAccountKitExample-dummy.m */; };
+		35365241A58C17917C57A8FB4846FB18 /* Pods-facebookAccountKitExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2637590FB0E11B22301AB0563C6A5A92 /* Pods-facebookAccountKitExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BDBCD1D31D9380E2C3475065DE1EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D2DCB5D2350B500514883937FB6CC3D /* Pods-facebookAccountKitExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-facebookAccountKitExample.modulemap"; sourceTree = "<group>"; };
+		0E776BCE8103E62E20FEB355A27A05F3 /* AKFUIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFUIManager.h; path = AccountKit.framework/Headers/AKFUIManager.h; sourceTree = "<group>"; };
+		10101C92DD554AB4C8B1E8D1DB6B4972 /* AKFSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFSettings.h; path = AccountKit.framework/Headers/AKFSettings.h; sourceTree = "<group>"; };
+		119DF1ADBB8261B74068D8D82BDC8A3F /* AKFResponseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFResponseType.h; path = AccountKit.framework/Headers/AKFResponseType.h; sourceTree = "<group>"; };
+		1C137D9FB123CFEF9DA1128B4F7ACD96 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		259729DB69BB86EC24DD774E4B72801C /* AKFAccountKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFAccountKit.h; path = AccountKit.framework/Headers/AKFAccountKit.h; sourceTree = "<group>"; };
+		2637590FB0E11B22301AB0563C6A5A92 /* Pods-facebookAccountKitExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-facebookAccountKitExample-umbrella.h"; sourceTree = "<group>"; };
+		2A9A1CF420BFCCFF6069BF51C9158043 /* AKFViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFViewController.h; path = AccountKit.framework/Headers/AKFViewController.h; sourceTree = "<group>"; };
+		2CB9BDF97E81360BCE83348238F89D54 /* Pods-facebookAccountKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-facebookAccountKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2E71D9F9609A24C292E34D27EEEE5B80 /* Pods-facebookAccountKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-facebookAccountKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		3B7B360CD70B0085630039F77C7ED06E /* Pods_facebookAccountKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_facebookAccountKitExample.framework; path = "Pods-facebookAccountKitExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5583B084519251B4FB0FA3309F1F00 /* AKFConfiguring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFConfiguring.h; path = AccountKit.framework/Headers/AKFConfiguring.h; sourceTree = "<group>"; };
+		5130162B8BBF9A47BD5F6AEEDA8C6CA4 /* AccountKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AccountKit.h; path = AccountKit.framework/Headers/AccountKit.h; sourceTree = "<group>"; };
+		523E30DCB18CE31E432BF954BE6ABA70 /* AKFAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFAccount.h; path = AccountKit.framework/Headers/AKFAccount.h; sourceTree = "<group>"; };
+		597C3E4B04CB9C2D874C15757260FC6C /* AKFAccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFAccessToken.h; path = AccountKit.framework/Headers/AKFAccessToken.h; sourceTree = "<group>"; };
+		5AF8ADD00D4E68834D5A5649252965A7 /* AKFErrorDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFErrorDetail.h; path = AccountKit.framework/Headers/AKFErrorDetail.h; sourceTree = "<group>"; };
+		62D42434B6F950E41EE6FF5CCBE0D8FD /* AKFError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFError.h; path = AccountKit.framework/Headers/AKFError.h; sourceTree = "<group>"; };
+		65BF676F286D1C5406ED3C8A9EAB3066 /* AKFLoginFlowState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFLoginFlowState.h; path = AccountKit.framework/Headers/AKFLoginFlowState.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A74CAE509A94A378625F741C5BB3CCD /* AKFTextPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFTextPosition.h; path = AccountKit.framework/Headers/AKFTextPosition.h; sourceTree = "<group>"; };
+		7BAF5D0621C043017E020084519B504C /* Pods-facebookAccountKitExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-facebookAccountKitExample-frameworks.sh"; sourceTree = "<group>"; };
+		7D842F447823820043CB4F634392A688 /* AKFButtonType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFButtonType.h; path = AccountKit.framework/Headers/AKFButtonType.h; sourceTree = "<group>"; };
+		7DD65F0DF5C41C915DD36A4DE10D2C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AE20782037B0EF7AF7446A0C825A5D /* AKFTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFTheme.h; path = AccountKit.framework/Headers/AKFTheme.h; sourceTree = "<group>"; };
+		858013366FC92144FF8938368338838D /* AKFAccountPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFAccountPreferences.h; path = AccountKit.framework/Headers/AKFAccountPreferences.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		987B8B26824B488EF3F5E6B1A6BF80C6 /* Pods-facebookAccountKitExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-facebookAccountKitExample-resources.sh"; sourceTree = "<group>"; };
+		A59C2E4348EDEBB55174D72888E532E1 /* Pods-facebookAccountKitExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-facebookAccountKitExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B516D940FE7477B8964E0683DBC62316 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		B7CDEE3EE8097AD853AC16E4F2B43A28 /* AKFSkinManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFSkinManager.h; path = AccountKit.framework/Headers/AKFSkinManager.h; sourceTree = "<group>"; };
+		BEA64921B9F736F65A6471288A5CED4A /* AKFUIManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFUIManaging.h; path = AccountKit.framework/Headers/AKFUIManaging.h; sourceTree = "<group>"; };
+		EDD145A5328D79AB7055029AFED15552 /* Pods-facebookAccountKitExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-facebookAccountKitExample-dummy.m"; sourceTree = "<group>"; };
+		F4E59833EB17DA76817241D8B7EAC7B4 /* AKFLoginType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFLoginType.h; path = AccountKit.framework/Headers/AKFLoginType.h; sourceTree = "<group>"; };
+		F929A78FFEEEAC013F32F2D843241D21 /* AKFPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFPhoneNumber.h; path = AccountKit.framework/Headers/AKFPhoneNumber.h; sourceTree = "<group>"; };
+		F9BD8D70E109DA9B5D790D832EFE808C /* Pods-facebookAccountKitExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-facebookAccountKitExample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA51A05381124077A00DA0771122B7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BDBCD1D31D9380E2C3475065DE1EDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045793D342445456AFA21638D7758758 /* Pods-facebookAccountKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				7DD65F0DF5C41C915DD36A4DE10D2C97 /* Info.plist */,
+				0D2DCB5D2350B500514883937FB6CC3D /* Pods-facebookAccountKitExample.modulemap */,
+				A59C2E4348EDEBB55174D72888E532E1 /* Pods-facebookAccountKitExample-acknowledgements.markdown */,
+				F9BD8D70E109DA9B5D790D832EFE808C /* Pods-facebookAccountKitExample-acknowledgements.plist */,
+				EDD145A5328D79AB7055029AFED15552 /* Pods-facebookAccountKitExample-dummy.m */,
+				7BAF5D0621C043017E020084519B504C /* Pods-facebookAccountKitExample-frameworks.sh */,
+				987B8B26824B488EF3F5E6B1A6BF80C6 /* Pods-facebookAccountKitExample-resources.sh */,
+				2637590FB0E11B22301AB0563C6A5A92 /* Pods-facebookAccountKitExample-umbrella.h */,
+				2CB9BDF97E81360BCE83348238F89D54 /* Pods-facebookAccountKitExample.debug.xcconfig */,
+				2E71D9F9609A24C292E34D27EEEE5B80 /* Pods-facebookAccountKitExample.release.xcconfig */,
+			);
+			name = "Pods-facebookAccountKitExample";
+			path = "Target Support Files/Pods-facebookAccountKitExample";
+			sourceTree = "<group>";
+		};
+		0712407882D695AE4BE46A73B5CBD34C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B516D940FE7477B8964E0683DBC62316 /* AccountKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0018202BBCD94DB8CED05D189B5F1B /* AccountKit */ = {
+			isa = PBXGroup;
+			children = (
+				5130162B8BBF9A47BD5F6AEEDA8C6CA4 /* AccountKit.h */,
+				597C3E4B04CB9C2D874C15757260FC6C /* AKFAccessToken.h */,
+				523E30DCB18CE31E432BF954BE6ABA70 /* AKFAccount.h */,
+				259729DB69BB86EC24DD774E4B72801C /* AKFAccountKit.h */,
+				858013366FC92144FF8938368338838D /* AKFAccountPreferences.h */,
+				7D842F447823820043CB4F634392A688 /* AKFButtonType.h */,
+				4B5583B084519251B4FB0FA3309F1F00 /* AKFConfiguring.h */,
+				62D42434B6F950E41EE6FF5CCBE0D8FD /* AKFError.h */,
+				5AF8ADD00D4E68834D5A5649252965A7 /* AKFErrorDetail.h */,
+				65BF676F286D1C5406ED3C8A9EAB3066 /* AKFLoginFlowState.h */,
+				F4E59833EB17DA76817241D8B7EAC7B4 /* AKFLoginType.h */,
+				F929A78FFEEEAC013F32F2D843241D21 /* AKFPhoneNumber.h */,
+				119DF1ADBB8261B74068D8D82BDC8A3F /* AKFResponseType.h */,
+				10101C92DD554AB4C8B1E8D1DB6B4972 /* AKFSettings.h */,
+				B7CDEE3EE8097AD853AC16E4F2B43A28 /* AKFSkinManager.h */,
+				7A74CAE509A94A378625F741C5BB3CCD /* AKFTextPosition.h */,
+				80AE20782037B0EF7AF7446A0C825A5D /* AKFTheme.h */,
+				0E776BCE8103E62E20FEB355A27A05F3 /* AKFUIManager.h */,
+				BEA64921B9F736F65A6471288A5CED4A /* AKFUIManaging.h */,
+				2A9A1CF420BFCCFF6069BF51C9158043 /* AKFViewController.h */,
+				0712407882D695AE4BE46A73B5CBD34C /* Frameworks */,
+				72BF8E5BF5BDA0D97E1C6EE31B7D5223 /* Resources */,
+			);
+			name = AccountKit;
+			path = AccountKit;
+			sourceTree = "<group>";
+		};
+		3C9871FFCD964604A8B31617B6BD975E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				045793D342445456AFA21638D7758758 /* Pods-facebookAccountKitExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72BF8E5BF5BDA0D97E1C6EE31B7D5223 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C137D9FB123CFEF9DA1128B4F7ACD96 /* AccountKitStrings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8B00BED618B83EA37B45D8B8335CF40C /* Pods */,
+				883E9B30797FB49C17C6AB2552F370D3 /* Products */,
+				3C9871FFCD964604A8B31617B6BD975E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		883E9B30797FB49C17C6AB2552F370D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7B360CD70B0085630039F77C7ED06E /* Pods_facebookAccountKitExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B00BED618B83EA37B45D8B8335CF40C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B0018202BBCD94DB8CED05D189B5F1B /* AccountKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F2A36E355DF749F309E9C5585EF0AA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35365241A58C17917C57A8FB4846FB18 /* Pods-facebookAccountKitExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		844FF2A634479A9DDADEC41765CA7BCC /* Pods-facebookAccountKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969923E4A12C5EF6666237274F35DBDB /* Build configuration list for PBXNativeTarget "Pods-facebookAccountKitExample" */;
+			buildPhases = (
+				EE70BFFF13D996D62B2AFA366D5D5B59 /* Sources */,
+				CA51A05381124077A00DA0771122B7B6 /* Frameworks */,
+				4F2A36E355DF749F309E9C5585EF0AA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-facebookAccountKitExample";
+			productName = "Pods-facebookAccountKitExample";
+			productReference = 3B7B360CD70B0085630039F77C7ED06E /* Pods_facebookAccountKitExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 883E9B30797FB49C17C6AB2552F370D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844FF2A634479A9DDADEC41765CA7BCC /* Pods-facebookAccountKitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE70BFFF13D996D62B2AFA366D5D5B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C998660902E580BF00E195B340F9AE4 /* Pods-facebookAccountKitExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2274D0F1FB8692B6DF476DCE55ED4A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E71D9F9609A24C292E34D27EEEE5B80 /* Pods-facebookAccountKitExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-facebookAccountKitExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-facebookAccountKitExample/Pods-facebookAccountKitExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_facebookAccountKitExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		586D9AF3A9D63B6ACBF4740AB13EF9E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB9BDF97E81360BCE83348238F89D54 /* Pods-facebookAccountKitExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-facebookAccountKitExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-facebookAccountKitExample/Pods-facebookAccountKitExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_facebookAccountKitExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969923E4A12C5EF6666237274F35DBDB /* Build configuration list for PBXNativeTarget "Pods-facebookAccountKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586D9AF3A9D63B6ACBF4740AB13EF9E1 /* Debug */,
+				2274D0F1FB8692B6DF476DCE55ED4A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
